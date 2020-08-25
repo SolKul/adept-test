@@ -3,6 +3,6 @@
 `build`内で
 
 ```bash
-$ cmake ..
+$ cmake ../exercise01/
 $ cmake --build .
 ```

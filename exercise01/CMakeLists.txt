@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.9)
 project(adept-test CXX)
 
-add_executable(main_app main.cpp)
+add_executable(exercise01 main.cpp)
 
 # ターゲットadept
 add_library(adept STATIC IMPORTED)
@@ -15,5 +15,6 @@ if(NOT OpenMP_FOUND)
     message(FATAL_ERROR "OpenMP NOT FOUND")
 endif()
 
+
 target_link_libraries(adept INTERFACE OpenMP::OpenMP_CXX)
-target_link_libraries(main_app adept)
+target_link_libraries(exercise01 adept)
