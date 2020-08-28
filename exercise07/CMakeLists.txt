@@ -24,4 +24,3 @@ add_subdirectory(helper)
 
 add_executable(main_app main.cpp)
 target_link_libraries(main_app adept helper)
-target_compile_options(main_app PRIVATE -O0)
