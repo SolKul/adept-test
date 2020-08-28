@@ -2,6 +2,8 @@
 #define SAMPLE_H
 
 void func();
-void func_dummy();
+int func_dummy(int x);
+int func_dummy(int x);
+int func_dummy(int x);
 
 #endif //SAMPLE_H
