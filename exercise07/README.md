@@ -1,1 +1,2 @@
 # Compute Simple Jacobian
+adeptのArray機能を使ってJacobianを計算する
