@@ -6,7 +6,7 @@ $ g++ source.cpp -g -O0 -o a.out
 
 でコンパイルして、
 ```bash
-$ gdb add_tem<int>(int,int)(3,4)
+$ gdb a.out
 ```
 でデバッグ
 
