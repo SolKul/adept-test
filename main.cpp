@@ -8,7 +8,6 @@ double func(double x){
   return y;
 }
 
-
 int main(){
 
   
